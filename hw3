@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+long F(long n)
+
+{
+
+ long a1=0, a2=1, a3=1, i;
+
+ if(n<=2) return 1;
+
+ for(i=3; i<=n; i++) {
+
+   a1=a2;
+
+   a2=a3;
+
+   a3=a1+a2;
+
+ }
+
+ return a3;
+
+}
+
+int main()
+
+{
+
+ long n;
+
+ scanf("%ld",&n);
+
+ printf("%ld", F(n));
+
+}
