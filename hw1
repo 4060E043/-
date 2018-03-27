@@ -1,0 +1,50 @@
+#include <stdio.h>
+ 
+int main ()
+{
+   
+   int a = 10;
+
+   while( a < 20 )
+   {
+   	printf("%d\n",a);
+       a++;
+   }
+ 
+   return 0;
+}
+
+
+
+
+
+#include <iostream>
+using namespace std;
+ 
+int main ()
+{
+   // 局部变量声明
+   int a = 10;
+
+   // while 循环执行
+   while( a < 20 )
+   {
+       cout << "a 的值：" << a << endl;
+       a++;
+   }
+ 
+   return 0;
+}
+
+
+
+public class Test {
+   public static void main(String args[]) {
+      int x = 10;
+      while( x < 20 ) {
+         System.out.print("value of x : " + x );
+         x++;
+         System.out.print("\n");
+      }
+   }
+}
