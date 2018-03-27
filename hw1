@@ -1,3 +1,6 @@
+3/27
+-------------------------------------------------------
+C語言
 #include <stdio.h>
  
 int main ()
@@ -17,7 +20,7 @@ int main ()
 
 
 
-
+C++
 #include <iostream>
 using namespace std;
  
@@ -36,7 +39,7 @@ int main ()
 }
 
 
-
+JAVA
 public class Test {
    public static void main(String args[]) {
       int x = 10;
