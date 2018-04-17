@@ -2,16 +2,16 @@
 using namespace std; 
 
 int main() { 
-    const int row = 3;
-    const int column = 3;
+    const int row = 4;
+    const int column = 4;
     int iarr[row][column]; 
 
-    for(int i = 0; i < row; i++) 
-        for(int j = 0; j < column; j++) 
-            iarr[i][j] = (i+1) * (j+1); 
+    for(int i = 1; i < row; i++) 
+        for(int j = 1; j < column; j++) 
+            iarr[i][j] = i*j; 
 
-    for(int i = 0; i < row; i++) { 
-        for(int j = 0; j < column; j++) 
+    for(int i = 1; i < row; i++) { 
+        for(int j = 1; j < column; j++) 
             cout << iarr[i][j] << "\t"; 
         cout << endl; 
     } 
